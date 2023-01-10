@@ -1,0 +1,65 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>color generator</title>
+  </head>
+
+  <body>
+    <div class="topMenu">
+      <input type="color" id="head" name="head" value="#e66465" />
+      <select name="colors" id="color">
+        <option value="monochrome">monochrome</option>
+        <option value="monochrome-dark">monochrome-dark</option>
+        <option value="monochrome-light">monochrome-light</option>
+        <option value="analogic">analogic</option>
+        <option value="complement">complement</option>
+        <option value="analogic-complement">analogic-complement</option>
+        <option value="triad">triad</option>
+        <option value="quad">quad</option>
+      </select>
+     
+      <div class="btn">
+        <button class="btn-submit" id="btnSubmit">Get color scheme</button>
+      </div>
+    </div>
+    <div class="colorsContainer" id="colorsContainer">
+      <div style="background-color: #ac1f20; width: calc(100% / 5)"></div>
+      <div style="background-color: #d82526; width: calc(100% / 5)"></div>
+      <div style="background-color: #e24f50; width: calc(100% / 5)"></div>
+      <div style="background-color: #ea7a7a; width: calc(100% / 5)"></div>
+      <div style="background-color: #f1a5a6; width: calc(100% / 5)"></div>
+    </div>
+    <div id="colorsContainer2">
+      <div style="background-color: #ffffff; width: calc(100% / 5)">
+        #D82526
+      </div>
+      <div style="background-color: #ffffff; width: calc(100% / 5)">
+        #AC1F20
+      </div>
+      <div style="background-color: #ffffff; width: calc(100% / 5)">
+        #E24F50
+      </div>
+      <div style="background-color: #ffffff; width: calc(100% / 5)">
+        #EA7A7A
+      </div>
+      <div style="background-color: #ffffff; width: calc(100% / 5)">
+        #F1A5A6
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

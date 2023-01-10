@@ -1,0 +1,39 @@
+body {
+  font-family: "Inter", sans-serif;
+  max-height: 100%;
+}
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  height: 10%;
+}
+.btn-submit {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+}
+.btn-submit,
+.dropDown {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  padding: 7px 4px;
+  border-radius: 4px;
+}
+
+select {
+  padding: 5px 10px;
+}
+
+.colorsContainer {
+  display: flex;
+  height: 80%;
+  text-align: center;
+}
+#colorsContainer2 {
+  display: flex;
+  text-align: center;
+  height: 10%;
+}
